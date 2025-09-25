@@ -1,0 +1,139 @@
+body{
+    background-color:rgb(236 242 255);
+    font-family: Arial,sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    line-height: 20px;
+}
+.container{
+    width: 40%;
+    height: 450px;
+    display: flex;
+    background-color: rgb(255 255 255);
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-top: 10%;
+    margin-left: 32%;
+}
+.üst{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(70 54 241);
+    border-radius: 15px;
+    text-align: center;
+}
+.üst h2{
+    color: rgb(254 255 250);
+    margin-top: 50px;
+}
+.üst h3, .üst p{
+    color:rgb(200 193 255);
+}
+.baloon{
+    width: 60%;
+    height: 40%;
+    background-color:rgb(70 51 231);
+    color: rgb(254 254 255);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 60px;
+    border: 0.5px solid transparent;
+    border-radius: 50%;
+}
+.baloon h1{
+    font-size: 60px;
+}
+.baloon h4{
+    font-size: 23px;
+}
+.baloon h1, .baloon h4{
+    margin-top: 50px;
+}
+.baloon h4{
+    color: rgb(97 83 231);
+}
+.alt{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 2%;
+    gap: 10px;
+}
+.reaction{
+    display: flex;
+    flex-direction: row;
+    color: rgb(212 113 110);
+    background-color: rgb(255 246 247);
+    border: 0.5px solid transparent;
+    border-radius: 12px;
+    text-align: center;
+    padding: 1px;
+}
+.reaction h4{
+    margin-left: 120px;
+    color: rgb(174 167 174);
+}
+.reaction h4 strong{
+    color: rgb(48 49 67);
+}
+.memory{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255 250 244);
+    color: rgb(255 211 117);
+    border: 0.5px solid transparent;
+    border-radius: 12px;
+    text-align: center;
+}
+.memory h4{
+    margin-left: 130px;
+    color: rgb(169 171 170);
+}
+.memory h4 strong{
+    color: rgb(48 49 67);
+}
+.verbal{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(242 253 249);
+    color: rgb(64 177 146);
+    border: 0.5px solid transparent;
+    border-radius: 12px;
+    text-align: center;
+}
+.verbal h4{
+    margin-left: 150px;
+    color:rgb(169 171 170);
+}
+.verbal h4 strong{
+    color:rgb(48 49 67);
+}
+.visual{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(244 244 254);
+    color:rgb(136 139 208);
+    border: 0.5px solid transparent;
+    border-radius: 12px;
+    text-align: center;
+}
+.visual h4{
+    margin-left: 150px;
+    color:rgb(169 171 170);
+}
+.visual h4 strong{
+    color:rgb(48 49 67);
+}
+button{
+    width: 100%;
+    height: 10%;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(48 59 89);
+}
+button a{
+    text-decoration: none;
+    color:rgb(208 213 226);
+}
