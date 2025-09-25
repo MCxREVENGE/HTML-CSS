@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.cv{
+    width: 30%;
+    height: 50%;
+    font-size: medium;
+    color: greenyellow;
+    background-color:rgb(60, 59, 59) ;
+    text-align: center;
+    margin-top: 10%;
+    margin-left:35%;
+    border-radius: 14px;
+    padding: 1%;
+    display: inline-block;
+    box-shadow: 6 4 6 4 gray;
+}
+.cv .link{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cv .link a{
+    text-align: center;
+    line-height: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size:medium;
+}
+
+.cv .link button{
+    background-color: black;
+    border: 2px solid rgb(30, 27, 27);
+    box-shadow: 10 8 10 8 gray;
+    border-radius: 14px;
+    padding: 15px 32px;
+    text-align: center;
+}
+.cv .link button:hover{
+    background-color: gray;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.alt{
+    color: white;
+    display: inline;
+    text-align: center;
+}
+.alt  h6 a{
+    text-decoration: none;
+    color: aqua;
+}
+h6{
+    margin-top: 5%;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .cv {
+        width: 80%;
+        padding: 1.5rem 1rem;
+    }
+    .cv .link button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cv {
+        width: 90%;
+        border-radius: 10px;
+    }
+    .cv .link {
+        gap: 8px;
+    }
+    .cv .link a {
+        font-size: 14px;
+    }
+}
