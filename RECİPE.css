@@ -1,0 +1,85 @@
+body{
+    background-color:hsl(28.89deg 52.94% 90%);
+    font-family: young-serif, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    height: 80%;
+    width: 45%;
+    background-color:hsl(0deg 0% 100%) ;
+    margin-top: 3%;
+    margin-left: 30%;
+    border-radius: 40px;
+}
+.container img{
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    margin-right: 2%;
+    border-radius: 20px;
+    text-align: center;
+}
+.alt{
+    margin-left: 7.5%;
+    margin-right: 5%;
+}
+.alt p{
+    color: rgb(94 91 88);
+}
+.preparation{
+    background-color:rgb(255 247 252);
+    width: 85%;
+    height: 25%;
+    padding: 8px;
+    margin-left: 7%;
+    border-radius: 20px;
+    line-height: 30px;
+}
+.preparation h2{
+    color: rgb(119 56 83);
+    margin-left: 2.2%;
+}
+.preparation ul{
+    color: rgb(119 56 83);
+}
+.preparation p{
+    display: inline;
+    color: rgb(106 103 100);
+}
+.preparation b{
+    color: rgb(0, 0, 0);
+}
+.container h2{
+    margin-left: 7.5%;
+}
+.container ul,.container ol{
+    margin-left: 5%;
+    color: rgb(116 68 63);
+}
+.container p{
+    color:rgb(106 103 100);
+}
+.container b{
+    color: black;
+}
+.container h2{
+    color: rgb(133 70 56);
+}
+.container hr{
+    margin-left: 7%;;
+    margin-right: 7%;
+    color: rgb(245 245 245);
+}
+.Nutrition p{
+    margin-left: 7.5%;
+}
+.Nutrition h3{
+    margin-left: 12%;
+    color: rgb(106 103 100);
+}
+.Nutrition b{
+    color:rgb(123 74 61);
+    margin-left: 50%;
+    display: block;
+}
