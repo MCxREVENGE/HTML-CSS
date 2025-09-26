@@ -77,11 +77,20 @@ body{
 }
 .Nutrition h3{
     margin-left: 12%;
-    color: rgb(106 103 100);
+    color: rgb(0, 0, 0);
 }
 .Nutrition b{
     color:rgb(123 74 61);
-    margin-left: 50%;
-    display: block;
-
+}
+.one b{
+    margin-left: 36.7%;
+}
+.two b{
+    margin-left: 40%;
+}
+.three b{
+    margin-left: 38.4%; 
+}
+.four b{
+    margin-left: 44%;
 }
