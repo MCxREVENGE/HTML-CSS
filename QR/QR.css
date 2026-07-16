@@ -1,0 +1,26 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+body{
+    background-color: rgb(196, 222, 230);
+}
+.container{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(223, 239, 240);
+    border-radius: 14px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 37%;
+    padding: 1%;
+    text-align: center;
+}
+.container:hover{
+    box-shadow: 6 4 6 4 gray;
+}
+.container p:last-child{
+    color:rgb(163, 186, 130) ;
+}
